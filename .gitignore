@@ -1,0 +1,38 @@
+pycache/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+*.egg
+
+IDE
+.idea/
+.vscode/
+*~
+
+Environment
+.env
+.venv
+env/
+venv/
+
+Database files
+*.db
+.sqlite
+
+Log files
+*.log
+
+JSON files
+*.json
+
+OS
+.DS_Store
+Thumbs.db
+
+Temporary
+tmp/
+temp/
+
+Compiled
+*.pyc
