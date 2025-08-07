@@ -1,4 +1,3 @@
-# utils.py
 import logging
 
 def parse_order(order):
