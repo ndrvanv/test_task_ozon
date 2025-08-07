@@ -3,12 +3,12 @@ import logging
 from database import init_db, insert_order
 from utils import parse_order
 
-# Настройка логирования с правильной кодировкой UTF-8
+
 logging.basicConfig(
     filename='logs/app.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    encoding='utf-8'  # Добавляем правильную кодировку
+    encoding='utf-8'  
 )
 
 def load_json_data(file_path):
